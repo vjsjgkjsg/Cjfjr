@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Образовательный проект - Университет Козыбаева</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" stroke="#1a5490" stroke-width="2" fill="#f0f7ff"/>
+                            <path d="M25 15L35 20V30L25 35L15 30V20L25 15Z" fill="#1a5490"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-title" data-lang-ru="Университет Козыбаева" data-lang-kz="Қозыбаев университеті" data-lang-en="Kozybayev University">Университет Козыбаева</h1>
+                        <p class="logo-subtitle" data-lang-ru="Образовательный проект" data-lang-kz="Білім беру жобасы" data-lang-en="Educational Project">Образовательный проект</p>
+                    </div>
+                </div>
+                
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kz">KZ</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active" data-lang-ru="Главная" data-lang-kz="Басты бет" data-lang-en="Home">Главная</a></li>
+                <li><a href="pages/lectures.html" class="nav-link" data-lang-ru="Конспекты занятий" data-lang-kz="Сабақ конспектілері" data-lang-en="Lecture Notes">Конспекты занятий</a></li>
+                <li><a href="pages/presentations.html" class="nav-link" data-lang-ru="Презентации" data-lang-kz="Презентациялар" data-lang-en="Presentations">Презентации</a></li>
+                <li><a href="pages/recommendations.html" class="nav-link" data-lang-ru="Рекомендации для родителей" data-lang-kz="Ата-аналарға ұсыныстар" data-lang-en="Parent Recommendations">Рекомендации для родителей</a></li>
+                <li><a href="pages/about.html" class="nav-link" data-lang-ru="О проекте" data-lang-kz="Жоба туралы" data-lang-en="About Project">О проекте</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title" data-lang-ru="Добро пожаловать в образовательный проект" data-lang-kz="Білім беру жобасына қош келдіңіз" data-lang-en="Welcome to Educational Project">Добро пожаловать в образовательный проект</h2>
+                <p class="hero-description" data-lang-ru="Современная платформа для обмена знаниями, методическими материалами и взаимодействия с родителями" data-lang-kz="Білім алмасу, әдістемелік материалдар және ата-аналармен өзара іс-қимыл үшін заманауи платформа" data-lang-en="Modern platform for knowledge sharing, teaching materials and parent engagement">Современная платформа для обмена знаниями, методическими материалами и взаимодействия с родителями</p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label" data-lang-ru="Конспектов" data-lang-kz="Конспект" data-lang-en="Lectures">Конспектов</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label" data-lang-ru="Презентаций" data-lang-kz="Презентация" data-lang-en="Presentations">Презентаций</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label" data-lang-ru="Рекомендаций" data-lang-kz="Ұсыныс" data-lang-en="Tips">Рекомендаций</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Быстрые ссылки -->
+    <section class="section quick-links">
+        <div class="container">
+            <h2 class="section-title" data-lang-ru="Разделы портала" data-lang-kz="Портал бөлімдері" data-lang-en="Portal Sections">Разделы портала</h2>
+            <div class="quick-links-grid">
+                <a href="pages/lectures.html" class="quick-link-card">
+                    <div class="quick-link-icon">📚</div>
+                    <h3 data-lang-ru="Конспекты занятий" data-lang-kz="Сабақ конспектілері" data-lang-en="Lecture Notes">Конспекты занятий</h3>
+                    <p data-lang-ru="Подробные материалы по всем темам курса" data-lang-kz="Курстың барлық тақырыптары бойынша толық материалдар" data-lang-en="Comprehensive materials on all course topics">Подробные материалы по всем темам курса</p>
+                </a>
+                
+                <a href="pages/presentations.html" class="quick-link-card">
+                    <div class="quick-link-icon">📊</div>
+                    <h3 data-lang-ru="Презентации" data-lang-kz="Презентациялар" data-lang-en="Presentations">Презентации</h3>
+                    <p data-lang-ru="Визуальные материалы для лекций и семинаров" data-lang-kz="Дәрістер мен семинарларға арналған визуалды материалдар" data-lang-en="Visual materials for lectures and seminars">Визуальные материалы для лекций и семинаров</p>
+                </a>
+                
+                <a href="pages/recommendations.html" class="quick-link-card">
+                    <div class="quick-link-icon">👨‍👩‍👧</div>
+                    <h3 data-lang-ru="Рекомендации для родителей" data-lang-kz="Ата-аналарға ұсыныстар" data-lang-en="Parent Recommendations">Рекомендации для родителей</h3>
+                    <p data-lang-ru="Практические советы по воспитанию и развитию детей" data-lang-kz="Балаларды тәрбиелеу және дамыту бойынша практикалық кеңестер" data-lang-en="Practical advice on parenting and child development">Практические советы по воспитанию и развитию детей</p>
+                </a>
+                
+                <a href="pages/about.html" class="quick-link-card">
+                    <div class="quick-link-icon">ℹ️</div>
+                    <h3 data-lang-ru="О проекте" data-lang-kz="Жоба туралы" data-lang-en="About Project">О проекте</h3>
+                    <p data-lang-ru="Информация о целях и задачах образовательного проекта" data-lang-kz="Білім беру жобасының мақсаттары мен міндеттері туралы ақпарат" data-lang-en="Information about educational project goals and objectives">Информация о целях и задачах образовательного проекта</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-lang-ru="О проекте" data-lang-kz="Жоба туралы" data-lang-en="About">О проекте</h4>
+                    <p data-lang-ru="Образовательная платформа для студентов, преподавателей и родителей Университета имени М. Козыбаева" data-lang-kz="М. Қозыбаев атындағы университеттің студенттері, оқытушылары және ата-аналары үшін білім беру платформасы" data-lang-en="Educational platform for students, teachers and parents of M. Kozybayev University">Образовательная платформа для студентов, преподавателей и родителей Университета имени М. Козыбаева</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-lang-ru="Быстрые ссылки" data-lang-kz="Жылдам сілтемелер" data-lang-en="Quick Links">Быстрые ссылки</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-lang-ru="Главная" data-lang-kz="Басты бет" data-lang-en="Home">Главная</a></li>
+                        <li><a href="#lectures" data-lang-ru="Конспекты" data-lang-kz="Конспектілер" data-lang-en="Lectures">Конспекты</a></li>
+                        <li><a href="#presentations" data-lang-ru="Презентации" data-lang-kz="Презентациялар" data-lang-en="Presentations">Презентации</a></li>
+                        <li><a href="#recommendations" data-lang-ru="Рекомендации" data-lang-kz="Ұсыныстар" data-lang-en="Recommendations">Рекомендации</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-lang-ru="Контакты" data-lang-kz="Байланыстар" data-lang-en="Contacts">Контакты</h4>
+                    <ul class="footer-contacts">
+                        <li>📧 info@nkzu.kz</li>
+                        <li>📞 +7 (7152) 46-14-14</li>
+                        <li>📍 <span data-lang-ru="Петропавловск, Казахстан" data-lang-kz="Петропавл, Қазақстан" data-lang-en="Petropavl, Kazakhstan">Петропавловск, Казахстан</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span data-lang-ru="Университет имени М. Козыбаева. Все права защищены." data-lang-kz="М. Қозыбаев атындағы университеті. Барлық құқықтар қорғалған." data-lang-en="M. Kozybayev University. All rights reserved.">Университет имени М. Козыбаева. Все права защищены.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

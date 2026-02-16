@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конспекты занятий - Университет Козыбаева</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                            <path d="M25 5L45 15V35L25 45L5 35V15L25 5Z" stroke="#1a5490" stroke-width="2" fill="#f0f7ff"/>
+                            <path d="M25 15L35 20V30L25 35L15 30V20L25 15Z" fill="#1a5490"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="logo-title" data-lang-ru="Университет Козыбаева" data-lang-kz="Қозыбаев университеті" data-lang-en="Kozybayev University">Университет Козыбаева</h1>
+                        <p class="logo-subtitle" data-lang-ru="Образовательный проект" data-lang-kz="Білім беру жобасы" data-lang-en="Educational Project">Образовательный проект</p>
+                    </div>
+                </div>
+                
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kz">KZ</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Навигация -->
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link" data-lang-ru="Главная" data-lang-kz="Басты бет" data-lang-en="Home">Главная</a></li>
+                <li><a href="lectures.html" class="nav-link active" data-lang-ru="Конспекты занятий" data-lang-kz="Сабақ конспектілері" data-lang-en="Lecture Notes">Конспекты занятий</a></li>
+                <li><a href="presentations.html" class="nav-link" data-lang-ru="Презентации" data-lang-kz="Презентациялар" data-lang-en="Presentations">Презентации</a></li>
+                <li><a href="recommendations.html" class="nav-link" data-lang-ru="Рекомендации для родителей" data-lang-kz="Ата-аналарға ұсыныстар" data-lang-en="Parent Recommendations">Рекомендации для родителей</a></li>
+                <li><a href="about.html" class="nav-link" data-lang-ru="О проекте" data-lang-kz="Жоба туралы" data-lang-en="About Project">О проекте</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Заголовок страницы -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title" data-lang-ru="Конспекты занятий" data-lang-kz="Сабақ конспектілері" data-lang-en="Lecture Notes">Конспекты занятий</h1>
+            <p class="page-description" data-lang-ru="Полная библиотека учебных материалов по педагогике, психологии и методике преподавания" data-lang-kz="Педагогика, психология және оқыту әдістемесі бойынша оқу материалдарының толық кітапханасы" data-lang-en="Complete library of educational materials on pedagogy, psychology and teaching methodology">Полная библиотека учебных материалов по педагогике, психологии и методике преподавания</p>
+        </div>
+    </section>
+
+    <!-- Фильтры -->
+    <section class="section">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all" data-lang-ru="Все материалы" data-lang-kz="Барлық материалдар" data-lang-en="All Materials">Все материалы</button>
+                <button class="filter-btn" data-filter="pedagogy" data-lang-ru="Педагогика" data-lang-kz="Педагогика" data-lang-en="Pedagogy">Педагогика</button>
+                <button class="filter-btn" data-filter="psychology" data-lang-ru="Психология" data-lang-kz="Психология" data-lang-en="Psychology">Психология</button>
+                <button class="filter-btn" data-filter="methodology" data-lang-ru="Методика" data-lang-kz="Әдістеме" data-lang-en="Methodology">Методика</button>
+            </div>
+
+            <!-- Карточки конспектов -->
+            <div class="cards-grid">
+                <!-- Педагогика -->
+                <div class="card" data-category="pedagogy">
+                    <div class="card-icon">📚</div>
+                    <h3 class="card-title" data-lang-ru="Основы педагогики" data-lang-kz="Педагогика негіздері" data-lang-en="Fundamentals of Pedagogy">Основы педагогики</h3>
+                    <p class="card-description" data-lang-ru="Введение в педагогическую науку: объект, предмет, функции и методы педагогики. Основные категории и принципы образования." data-lang-kz="Педагогика ғылымына кіріспе: объектісі, пәні, функциялары және әдістері. Білім берудің негізгі санаттары мен принциптері." data-lang-en="Introduction to pedagogical science: object, subject, functions and methods of pedagogy. Main categories and principles of education.">Введение в педагогическую науку: объект, предмет, функции и методы педагогики. Основные категории и принципы образования.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 1</span>
+                        <span class="meta-item">📄 12 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 2.5 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=1" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="pedagogy">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title" data-lang-ru="Педагогическое общение" data-lang-kz="Педагогикалық қарым-қатынас" data-lang-en="Pedagogical Communication">Педагогическое общение</h3>
+                    <p class="card-description" data-lang-ru="Эффективное взаимодействие педагога с учащимися. Стили педагогического общения, техники активного слушания, разрешение конфликтов." data-lang-kz="Педагогтың оқушылармен тиімді өзара әрекеттесуі. Педагогикалық қарым-қатынас стильдері, белсенді тыңдау техникасы, қақтығыстарды шешу." data-lang-en="Effective teacher-student interaction. Styles of pedagogical communication, active listening techniques, conflict resolution.">Эффективное взаимодействие педагога с учащимися. Стили педагогического общения, техники активного слушания, разрешение конфликтов.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 2</span>
+                        <span class="meta-item">📄 10 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 2 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=2" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="pedagogy">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title" data-lang-ru="Теория воспитания" data-lang-kz="Тәрбие теориясы" data-lang-en="Theory of Education">Теория воспитания</h3>
+                    <p class="card-description" data-lang-ru="Сущность процесса воспитания, его закономерности и принципы. Методы и формы воспитательной работы. Семейное и общественное воспитание." data-lang-kz="Тәрбие процесінің мәні, оның заңдылықтары мен принциптері. Тәрбие жұмысының әдістері мен нысандары. Отбасылық және қоғамдық тәрбие." data-lang-en="The essence of the educational process, its patterns and principles. Methods and forms of educational work. Family and public education.">Сущность процесса воспитания, его закономерности и принципы. Методы и формы воспитательной работы. Семейное и общественное воспитание.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 3</span>
+                        <span class="meta-item">📄 14 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 3 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=3" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <!-- Психология -->
+                <div class="card" data-category="psychology">
+                    <div class="card-icon">🧠</div>
+                    <h3 class="card-title" data-lang-ru="Возрастная психология" data-lang-kz="Жас психологиясы" data-lang-en="Developmental Psychology">Возрастная психология</h3>
+                    <p class="card-description" data-lang-ru="Особенности психического развития на разных возрастных этапах. Критические периоды развития. Возрастные кризисы и их преодоление." data-lang-kz="Әртүрлі жас кезеңдеріндегі психикалық даму ерекшеліктері. Дамудың сыни кезеңдері. Жас дағдарыстары және оларды жеңу." data-lang-en="Features of mental development at different age stages. Critical periods of development. Age crises and their overcoming.">Особенности психического развития на разных возрастных этапах. Критические периоды развития. Возрастные кризисы и их преодоление.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 4</span>
+                        <span class="meta-item">📄 18 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 3.5 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=4" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="psychology">
+                    <div class="card-icon">💡</div>
+                    <h3 class="card-title" data-lang-ru="Мотивация к обучению" data-lang-kz="Оқуға деген ынта" data-lang-en="Learning Motivation">Мотивация к обучению</h3>
+                    <p class="card-description" data-lang-ru="Психологические аспекты мотивации учебной деятельности. Виды мотивов обучения. Формирование и поддержание учебной мотивации." data-lang-kz="Оқу іс-әрекетін ынталандырудың психологиялық аспектілері. Оқу мотивтерінің түрлері. Оқу ынтасын қалыптастыру және қолдау." data-lang-en="Psychological aspects of academic motivation. Types of learning motives. Formation and maintenance of academic motivation.">Психологические аспекты мотивации учебной деятельности. Виды мотивов обучения. Формирование и поддержание учебной мотивации.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 5</span>
+                        <span class="meta-item">📄 14 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 2.5 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=5" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="psychology">
+                    <div class="card-icon">🎭</div>
+                    <h3 class="card-title" data-lang-ru="Педагогическая психология" data-lang-kz="Педагогикалық психология" data-lang-en="Educational Psychology">Педагогическая психология</h3>
+                    <p class="card-description" data-lang-ru="Психологические закономерности обучения и воспитания. Психология учебной деятельности. Индивидуальные различия учащихся." data-lang-kz="Оқыту мен тәрбиелеудің психологиялық заңдылықтары. Оқу іс-әрекетінің психологиясы. Оқушылардың жеке ерекшеліктері." data-lang-en="Psychological patterns of teaching and education. Psychology of learning activities. Individual differences of students.">Психологические закономерности обучения и воспитания. Психология учебной деятельности. Индивидуальные различия учащихся.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 6</span>
+                        <span class="meta-item">📄 16 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 3 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=6" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <!-- Методика -->
+                <div class="card" data-category="methodology">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title" data-lang-ru="Современные методы обучения" data-lang-kz="Қазіргі заманғы оқыту әдістері" data-lang-en="Modern Teaching Methods">Современные методы обучения</h3>
+                    <p class="card-description" data-lang-ru="Инновационные подходы и технологии в образовании. Активные и интерактивные методы обучения. Проектная и исследовательская деятельность." data-lang-kz="Білім берудегі инновациялық тәсілдер мен технологиялар. Белсенді және интерактивті оқыту әдістері. Жобалық және зерттеу қызметі." data-lang-en="Innovative approaches and technologies in education. Active and interactive teaching methods. Project and research activities.">Инновационные подходы и технологии в образовании. Активные и интерактивные методы обучения. Проектная и исследовательская деятельность.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 7</span>
+                        <span class="meta-item">📄 15 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 3 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=7" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="methodology">
+                    <div class="card-icon">📊</div>
+                    <h3 class="card-title" data-lang-ru="Оценка образовательных результатов" data-lang-kz="Білім беру нәтижелерін бағалау" data-lang-en="Assessment of Learning Outcomes">Оценка образовательных результатов</h3>
+                    <p class="card-description" data-lang-ru="Методы и критерии оценивания учебных достижений. Формирующее и итоговое оценивание. Современные системы оценки качества образования." data-lang-kz="Оқу жетістіктерін бағалау әдістері мен критерийлері. Қалыптастырушы және қорытынды бағалау. Білім беру сапасын бағалаудың заманауи жүйелері." data-lang-en="Methods and criteria for assessing academic achievements. Formative and summative assessment. Modern systems for assessing the quality of education.">Методы и критерии оценивания учебных достижений. Формирующее и итоговое оценивание. Современные системы оценки качества образования.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 8</span>
+                        <span class="meta-item">📄 16 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 3 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=8" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+
+                <div class="card" data-category="methodology">
+                    <div class="card-icon">💻</div>
+                    <h3 class="card-title" data-lang-ru="Цифровые технологии в образовании" data-lang-kz="Білім берудегі цифрлық технологиялар" data-lang-en="Digital Technologies in Education">Цифровые технологии в образовании</h3>
+                    <p class="card-description" data-lang-ru="Использование ИКТ в учебном процессе. Электронные образовательные ресурсы. Дистанционное и смешанное обучение." data-lang-kz="Оқу процесінде АКТ пайдалану. Электрондық білім беру ресурстары. Қашықтықтан және аралас оқыту." data-lang-en="Use of ICT in the educational process. Electronic educational resources. Distance and blended learning.">Использование ИКТ в учебном процессе. Электронные образовательные ресурсы. Дистанционное и смешанное обучение.</p>
+                    <div class="card-meta">
+                        <span class="meta-item">📖 <span data-lang-ru="Модуль" data-lang-kz="Модуль" data-lang-en="Module">Модуль</span> 9</span>
+                        <span class="meta-item">📄 13 <span data-lang-ru="стр." data-lang-kz="бет" data-lang-en="pages">стр.</span></span>
+                        <span class="meta-item">⏱️ 2.5 <span data-lang-ru="часа" data-lang-kz="сағат" data-lang-en="hours">часа</span></span>
+                    </div>
+                    <a href="lecture-detail.html?id=9" class="btn-primary" data-lang-ru="Открыть и скачать" data-lang-kz="Ашу және жүктеу" data-lang-en="Open & Download">Открыть и скачать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 data-lang-ru="О проекте" data-lang-kz="Жоба туралы" data-lang-en="About">О проекте</h4>
+                    <p data-lang-ru="Образовательная платформа для студентов, преподавателей и родителей Университета имени М. Козыбаева" data-lang-kz="М. Қозыбаев атындағы университеттің студенттері, оқытушылары және ата-аналары үшін білім беру платформасы" data-lang-en="Educational platform for students, teachers and parents of M. Kozybayev University">Образовательная платформа для студентов, преподавателей и родителей Университета имени М. Козыбаева</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-lang-ru="Быстрые ссылки" data-lang-kz="Жылдам сілтемелер" data-lang-en="Quick Links">Быстрые ссылки</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html" data-lang-ru="Главная" data-lang-kz="Басты бет" data-lang-en="Home">Главная</a></li>
+                        <li><a href="lectures.html" data-lang-ru="Конспекты" data-lang-kz="Конспектілер" data-lang-en="Lectures">Конспекты</a></li>
+                        <li><a href="presentations.html" data-lang-ru="Презентации" data-lang-kz="Презентациялар" data-lang-en="Presentations">Презентации</a></li>
+                        <li><a href="recommendations.html" data-lang-ru="Рекомендации" data-lang-kz="Ұсыныстар" data-lang-en="Recommendations">Рекомендации</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-lang-ru="Контакты" data-lang-kz="Байланыстар" data-lang-en="Contacts">Контакты</h4>
+                    <ul class="footer-contacts">
+                        <li>📧 info@nkzu.kz</li>
+                        <li>📞 +7 (7152) 46-14-14</li>
+                        <li>📍 <span data-lang-ru="Петропавловск, Казахстан" data-lang-kz="Петропавл, Қазақстан" data-lang-en="Petropavl, Kazakhstan">Петропавловск, Казахстан</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span data-lang-ru="Университет имени М. Козыбаева. Все права защищены." data-lang-kz="М. Қозыбаев атындағы университеті. Барлық құқықтар қорғалған." data-lang-en="M. Kozybayev University. All rights reserved.">Университет имени М. Козыбаева. Все права защищены.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
